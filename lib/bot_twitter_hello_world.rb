@@ -68,7 +68,7 @@ end
 def like_and_follow_stream(client, client_stream)
   puts "Mon programme est en cours, j'attend un tweet!\n\n"
   client_stream.filter(track: "#bonjour_monde") do |tweet|
-    if tweet.is_a(Twitter::Tweet)
+    if tweet.is_a?(Twitter::Tweet)
         client.favorite (tweet)
         puts "Je viens d'aimer le tweet : #{tweet}"
         client.follow(tweet.user.id)
