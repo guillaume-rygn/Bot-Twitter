@@ -1,6 +1,6 @@
 # Twitter Bot 🐦
 
-Twitter Bot how like and following user how tweet with #bonjour_monde using [Twitter API] (https://github.com/sferik/twitter/blob/master/README.md) 
+Twitter Bot how like and following user how tweet with #bonjour_monde using [Twitter API](https://github.com/sferik/twitter/blob/master/README.md) 
 
 ## Il va dire bonjour 👋
 
